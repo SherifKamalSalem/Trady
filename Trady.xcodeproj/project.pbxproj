@@ -16,6 +16,8 @@
 		4269ED07218BD9490001790B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269ED06218BD9490001790B /* UserCell.swift */; };
 		4269ED09218BFBBC0001790B /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269ED08218BFBBC0001790B /* GroupCell.swift */; };
 		4269ED0B218C01C00001790B /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269ED0A218C01C00001790B /* Group.swift */; };
+		4269ED0D218C0EC70001790B /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269ED0C218C0EC70001790B /* GroupFeedCell.swift */; };
+		4269ED0F218C0FCB0001790B /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269ED0E218C0FCB0001790B /* GroupFeedVC.swift */; };
 		4280C0F5218A532F00091F19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4280C0F4218A532F00091F19 /* AppDelegate.swift */; };
 		4280C0F7218A532F00091F19 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4280C0F6218A532F00091F19 /* FeedVC.swift */; };
 		4280C0F9218A532F00091F19 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4280C0F8218A532F00091F19 /* GroupsVC.swift */; };
@@ -42,6 +44,8 @@
 		4269ED06218BD9490001790B /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		4269ED08218BFBBC0001790B /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
 		4269ED0A218C01C00001790B /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		4269ED0C218C0EC70001790B /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
+		4269ED0E218C0FCB0001790B /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
 		4280C0F1218A532F00091F19 /* Trady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trady.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4280C0F4218A532F00091F19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4280C0F6218A532F00091F19 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -135,6 +139,7 @@
 				421CF40E218A81F600D353FF /* AuthVC.swift */,
 				421CF410218A828300D353FF /* LoginVC.swift */,
 				42A5F346218B42A6008694FA /* CreatePostVC.swift */,
+				4269ED0E218C0FCB0001790B /* GroupFeedVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				42C56462218B55D50076388F /* FeedCell.swift */,
 				4269ED06218BD9490001790B /* UserCell.swift */,
 				4269ED08218BFBBC0001790B /* GroupCell.swift */,
+				4269ED0C218C0EC70001790B /* GroupFeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -320,9 +326,11 @@
 				4269ED09218BFBBC0001790B /* GroupCell.swift in Sources */,
 				421CF40F218A81F600D353FF /* AuthVC.swift in Sources */,
 				421CF411218A828300D353FF /* LoginVC.swift in Sources */,
+				4269ED0D218C0EC70001790B /* GroupFeedCell.swift in Sources */,
 				4280C0F5218A532F00091F19 /* AppDelegate.swift in Sources */,
 				4280C0F7218A532F00091F19 /* FeedVC.swift in Sources */,
 				421CF40D218A634000D353FF /* DataServices.swift in Sources */,
+				4269ED0F218C0FCB0001790B /* GroupFeedVC.swift in Sources */,
 				4269ED0B218C01C00001790B /* Group.swift in Sources */,
 				4269ED07218BD9490001790B /* UserCell.swift in Sources */,
 				4269ED05218BCA3F0001790B /* CreateGroupVC.swift in Sources */,
