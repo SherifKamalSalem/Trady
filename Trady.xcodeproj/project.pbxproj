@@ -12,6 +12,10 @@
 		421CF40F218A81F600D353FF /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421CF40E218A81F600D353FF /* AuthVC.swift */; };
 		421CF411218A828300D353FF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421CF410218A828300D353FF /* LoginVC.swift */; };
 		421CF415218A8CED00D353FF /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421CF414218A8CED00D353FF /* AuthService.swift */; };
+		4269ED05218BCA3F0001790B /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269ED04218BCA3F0001790B /* CreateGroupVC.swift */; };
+		4269ED07218BD9490001790B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269ED06218BD9490001790B /* UserCell.swift */; };
+		4269ED09218BFBBC0001790B /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269ED08218BFBBC0001790B /* GroupCell.swift */; };
+		4269ED0B218C01C00001790B /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269ED0A218C01C00001790B /* Group.swift */; };
 		4280C0F5218A532F00091F19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4280C0F4218A532F00091F19 /* AppDelegate.swift */; };
 		4280C0F7218A532F00091F19 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4280C0F6218A532F00091F19 /* FeedVC.swift */; };
 		4280C0F9218A532F00091F19 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4280C0F8218A532F00091F19 /* GroupsVC.swift */; };
@@ -21,6 +25,7 @@
 		4280C10F218A5FA000091F19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4280C10E218A5FA000091F19 /* GoogleService-Info.plist */; };
 		42A5F347218B42A6008694FA /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A5F346218B42A6008694FA /* CreatePostVC.swift */; };
 		42C56463218B55D50076388F /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C56462218B55D50076388F /* FeedCell.swift */; };
+		42C56467218B633A0076388F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C56466218B633A0076388F /* Message.swift */; };
 		42ED3E48218AABCB005804F0 /* CircularImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED3E45218AABCA005804F0 /* CircularImage.swift */; };
 		42ED3E49218AABCB005804F0 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED3E46218AABCA005804F0 /* RoundedButton.swift */; };
 		42ED3E4A218AABCB005804F0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED3E47218AABCA005804F0 /* LoginView.swift */; };
@@ -33,6 +38,10 @@
 		421CF40E218A81F600D353FF /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		421CF410218A828300D353FF /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		421CF414218A8CED00D353FF /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		4269ED04218BCA3F0001790B /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
+		4269ED06218BD9490001790B /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		4269ED08218BFBBC0001790B /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		4269ED0A218C01C00001790B /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		4280C0F1218A532F00091F19 /* Trady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trady.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4280C0F4218A532F00091F19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4280C0F6218A532F00091F19 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -44,6 +53,7 @@
 		4280C10E218A5FA000091F19 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		42A5F346218B42A6008694FA /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		42C56462218B55D50076388F /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		42C56466218B633A0076388F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		42ED3E45218AABCA005804F0 /* CircularImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularImage.swift; sourceTree = "<group>"; };
 		42ED3E46218AABCA005804F0 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		42ED3E47218AABCA005804F0 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -108,9 +118,9 @@
 				4280C109218A53D300091F19 /* View */,
 				4280C108218A53C300091F19 /* Controller */,
 				4280C0FA218A532F00091F19 /* Main.storyboard */,
-				4280C10B218A53F100091F19 /* Supporting Files */,
-				4280C102218A533100091F19 /* Info.plist */,
+				4280C10B218A53F100091F19 /* Support Files */,
 				4280C10E218A5FA000091F19 /* GoogleService-Info.plist */,
+				4280C102218A533100091F19 /* Info.plist */,
 			);
 			path = Trady;
 			sourceTree = "<group>";
@@ -118,6 +128,7 @@
 		4280C108218A53C300091F19 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4269ED04218BCA3F0001790B /* CreateGroupVC.swift */,
 				42ED3E4B218ABF4D005804F0 /* MeVC.swift */,
 				4280C0F6218A532F00091F19 /* FeedVC.swift */,
 				4280C0F8218A532F00091F19 /* GroupsVC.swift */,
@@ -135,6 +146,8 @@
 				42ED3E47218AABCA005804F0 /* LoginView.swift */,
 				42ED3E46218AABCA005804F0 /* RoundedButton.swift */,
 				42C56462218B55D50076388F /* FeedCell.swift */,
+				4269ED06218BD9490001790B /* UserCell.swift */,
+				4269ED08218BFBBC0001790B /* GroupCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -142,18 +155,20 @@
 		4280C10A218A53DB00091F19 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				42C56466218B633A0076388F /* Message.swift */,
+				4269ED0A218C01C00001790B /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		4280C10B218A53F100091F19 /* Supporting Files */ = {
+		4280C10B218A53F100091F19 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				4280C0F4218A532F00091F19 /* AppDelegate.swift */,
 				4280C0FD218A533100091F19 /* Assets.xcassets */,
 				4280C0FF218A533100091F19 /* LaunchScreen.storyboard */,
 			);
-			path = "Supporting Files";
+			path = "Support Files";
 			sourceTree = "<group>";
 		};
 		4280C10C218A542F00091F19 /* Extenstions */ = {
@@ -302,16 +317,21 @@
 				4280C0F9218A532F00091F19 /* GroupsVC.swift in Sources */,
 				42C56463218B55D50076388F /* FeedCell.swift in Sources */,
 				42ED3E49218AABCB005804F0 /* RoundedButton.swift in Sources */,
+				4269ED09218BFBBC0001790B /* GroupCell.swift in Sources */,
 				421CF40F218A81F600D353FF /* AuthVC.swift in Sources */,
 				421CF411218A828300D353FF /* LoginVC.swift in Sources */,
 				4280C0F5218A532F00091F19 /* AppDelegate.swift in Sources */,
 				4280C0F7218A532F00091F19 /* FeedVC.swift in Sources */,
 				421CF40D218A634000D353FF /* DataServices.swift in Sources */,
+				4269ED0B218C01C00001790B /* Group.swift in Sources */,
+				4269ED07218BD9490001790B /* UserCell.swift in Sources */,
+				4269ED05218BCA3F0001790B /* CreateGroupVC.swift in Sources */,
 				42ED3E4C218ABF4D005804F0 /* MeVC.swift in Sources */,
 				42A5F347218B42A6008694FA /* CreatePostVC.swift in Sources */,
 				421CF415218A8CED00D353FF /* AuthService.swift in Sources */,
 				42ED3E4A218AABCB005804F0 /* LoginView.swift in Sources */,
 				42ED3E48218AABCB005804F0 /* CircularImage.swift in Sources */,
+				42C56467218B633A0076388F /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
